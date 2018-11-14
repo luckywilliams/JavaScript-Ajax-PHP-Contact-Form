@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 0px;
+}
+
+.header {
+  margin: 100px 0px 50px 0px;
+}
+
+.form{
+  margin-bottom: 100px;
+}
+
+.message{
+  margin-top: 50px;
+}
+
+/*---- form style ----*/
+
+label {
+    font-size: 20px;
+    margin-bottom:20px;
+    margin-top: 40px;
+}
+
+.form-control {
+    padding: 30px 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #01161e;
+    border: 1px solid #e1e1e1;
+    border-radius: 0px;
+    box-shadow :none !important;
+    outline: none !important;
+}
+
+.form-control:focus {
+  border: 1px solid #1098f7;
+}
+
+.success-box{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/*---- button style ----*/
+
+.btn{
+  border: none !important;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  border-radius: 7rem;
+  letter-spacing: .1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  opacity: 1;
+  transition: all 0.2s;
+  margin-top: 60px;
+  color: #ffffff;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn:hover{
+  opacity: 0.7;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-success:focus{
+  background-color: #1098f7 !important;
+}
+
+
+.btn-success,
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus{
+  background-color: #54b539 !important;
+}
